@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+/** 
+*Main - Entry point
+*
+*Return = 0 (Always)
+*/
+
+int main(void)
+{
+printf("we do not have a name for our group yet\n")
+
+return = 0
+}
+
+
