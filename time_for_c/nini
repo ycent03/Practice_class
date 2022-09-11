@@ -6,6 +6,6 @@
 */
 int main (void)
 {
-printf("We don't have a name for our group yet" \n);
+printf("We don't have a name for our group yet"\n);
 return (0);
 }
