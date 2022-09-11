@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * main - Entry point
@@ -7,9 +7,20 @@ i#include <stdio.h>
  */
 int main(void)
 {
-	char Name[100];
-		printf("Enter your name: ");
-		fgets(Name, 100, stdin);
-		printf("Hello user your name is %s\n", Name);
+	int num;
+		printf("Enter your number: ");
+		scanf("%d", &num);
+		if (num < 1)
+		{
+			printf("%d is a negative number");
+		}
+		else if (num > 1)
+		{
+		printf("%d is a positive number", num);
+		}
+		else if (num == 0)
+		{
+		printf("%d is neutral", num)
+		}
 	return (0);
 }
