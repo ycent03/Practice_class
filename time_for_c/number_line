@@ -11,8 +11,8 @@ int main (void)
 {
 int n;
 
-printf ("Input your number\n");
-scanf ("%i\n", &n);
+printf ("Input your number: ");
+scanf ("%i", &n); ;
 
 if (n < 0)
 {  
