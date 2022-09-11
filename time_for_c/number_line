@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+*main - Entry poiny
+*
+*Return = 0 (Always)
+*/
+
+int main (void)
+{
+int n;
+
+printf ("Input your number\n");
+scanf ('%i\n', n);
+
+if (n < 0)
+{  
+printf ("%i is negatine\n" , n);
+}
+
+else if (n > 0)
+{
+printf ("%i is positive\n", n);
+}
+
+else 
+{
+printf ("%i is equal to 0\n", n);
+}
+
+return (0);
+
+
+}
