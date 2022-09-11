@@ -8,9 +8,9 @@
 
 int main(void)
 {
-printf("we do not have a name for our group yet\n")
+printf("we do not have a name for our group yet\n");
 
-return = 0
+return (0);
 }
 
 
