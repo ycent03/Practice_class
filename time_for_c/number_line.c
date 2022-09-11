@@ -20,7 +20,7 @@ int main(void)
 		}
 		else if (num == 0)
 		{
-		printf("%d is neutral", num)
+		printf("%d is neutral", num);
 		}
 	return (0);
 }
