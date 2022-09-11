@@ -12,7 +12,7 @@ int main(void)
 		scanf("%d", &num);
 		if (num < 1)
 		{
-			printf("%d is a negative number");
+			printf("%d is a negative number", num);
 		}
 		else if (num > 1)
 		{
